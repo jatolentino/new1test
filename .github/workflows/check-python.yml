@@ -2,11 +2,8 @@
 # To check the python installation
 
 on:
-  push:
-    branches:
-      - main
-      - master
-
+  workflow_dispatch:
+  
 jobs:
   build_wheel:
     runs-on: ubuntu-latest
