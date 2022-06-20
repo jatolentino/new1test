@@ -33,5 +33,5 @@ jobs:
           ls ./dist
           git add -f ./dist/*.whl
           git commit -m 'pushing new wheel'
-          git push
+          git push origin master
       - run: echo "This job's status is ${{ job.status }}."
